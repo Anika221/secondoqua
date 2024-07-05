@@ -1,0 +1,120 @@
+@import "_adaptive";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.third_section {
+    background-color: #504DC2;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.third_container {
+    width: 100%;
+    max-width: 1110px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.third_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.third_title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.66px;
+    text-align: left;
+    color: white;
+    width: 540px;
+}
+.third_btn {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #4985FF;
+    border: none;
+    transition: .5s;
+    color: white;
+    &:hover {
+        color: #4985FF;
+        background-color: white;
+        transition: .5s;
+        cursor: pointer;
+    }
+}
+.btn {
+    padding-top: 20px;
+}
+.third_item {
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas: 'first second third';
+    padding-top: 70px;
+    max-width: 1110px;
+    padding-bottom: 170px;
+}
+
+.first_card {
+    grid-area: first;
+
+}
+
+.second_card {
+    grid-area: second;
+}
+
+.third_card {
+    grid-area: third;
+}
+
+.third_cards{
+    border-radius: 10px;
+}
+.third_img {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.third_span {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color:#4985FF;
+}
+
+.third_title--team {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    max-width: 540px;
+    margin-bottom: 30px;
+}
+.third_text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.36px;
+    text-align: left;
+    color: #999999;
+    margin-bottom: 40px;
+    max-width: 350px;
+}
+.third_link {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #4985FF;
+}
+.mobile{
+    display: none;
+}

@@ -1,0 +1,116 @@
+@media screen and (max-width: 1065px) {
+  .third_section {
+    .third_container {
+      max-width: 805px;
+
+      .third_title {
+        font-size: 30px;
+      }
+
+      .third_item img {
+        max-width: 250px;
+      }
+
+      .third_title--team {
+        font-size: 15px;
+      }
+
+      .third_text {
+        font-size: 14px;
+      }
+
+      .third_text {
+        max-width: 250px;
+      }
+
+      .third_link {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .third_section {
+        .third_container {
+            max-width: 550px;
+
+            .third_title {
+                font-size: 25px;
+            }
+
+            .third_btn {
+                width: 150px;
+            }
+
+            .third_item {
+                grid-template-areas: "first second"
+                                      "third third";
+                display: grid;
+                
+                .third_card {
+                    justify-self: center;
+                    &:last-child{
+                      margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 515px) {
+  .third_section {
+      .third_container {
+          max-width: 390px;
+
+          .third_title {
+              font-size: 20px;
+          }
+         
+          .third_btn {
+              width: 100px;
+          }
+          .first_card, .second_card, .third_card{
+            padding-bottom: 40px;
+          }
+          .third_item {
+              grid-template-areas: "first"
+                                    "second"
+                                    "third";
+              display: grid;
+              justify-content: center;
+
+              .third_card {
+                &:last-child{
+                  margin-top: 50px;
+                  margin-top: 0;
+                }
+            }
+            }
+       }
+}
+}
+@media screen and (max-width: 390px) {
+  .third_section {
+      .third_container {
+          max-width: 280px;
+        .third_header{
+          align-items: center;
+        }
+          .third_title {
+              font-size: 17px;
+              display: none;
+          }
+          .mobile{
+            display: flex;
+          }
+          .third_btn {
+              width: 100px;
+          }
+          .btn{
+            padding: 0;
+          }
+          
+        }
+      }
+    }
